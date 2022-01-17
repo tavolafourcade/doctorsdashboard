@@ -1,11 +1,11 @@
-import logo from '../../assets/logo.png'
 import { Container, Button } from '@mui/material'
 import doctorImage from '../../assets/doctor-image.png'
 import Root, { classes } from './styles'
+import { Logo } from '../../components'
 const Landing = () => (
   <Root className={classes.container} style={{ height: '100vh' }}>
     <Container className={classes.mainHeader}>
-      <img alt='Dotors Dashboard' src={logo} />
+      <Logo />
     </Container>
     <Container style={{ display: 'flex' }}>
       <div className={classes.description}>
